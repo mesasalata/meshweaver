@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="227ef12d-04c4-43b7-b12b-de1172a6dcbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/jane-eyre/0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/jane-eyre/0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/jane-eyre/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/jane-eyre/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/jane-eyre/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/jane-eyre/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/jane-eyre/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/jane-eyre/index.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/long.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/long.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/test/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/test/index.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup-full.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup-full.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup-full.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup-full.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seed_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/seed_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/token.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/tokens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/tokens.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_tokens.py" afterDir="false" />
+    <list default="true" id="227ef12d-04c4-43b7-b12b-de1172a6dcbe" name="Changes" comment="feat: added tokeniser and token generator, added tests for these files">
+      <change afterPath="$PROJECT_DIR$/src/utils/token_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/tokenise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763988245340</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: added tokeniser and token generator, added tests for these files">
+      <option name="closed" value="true" />
+      <created>1764581478519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764581478519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +232,7 @@
     <MESSAGE value="project start" />
     <MESSAGE value="merge: manually merged github branches main and master" />
     <MESSAGE value="feat: added dataset, attempted implementation of tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added dataset, attempted implementation of tests" />
+    <MESSAGE value="feat: added tokeniser and token generator, added tests for these files" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added tokeniser and token generator, added tests for these files" />
   </component>
 </project>
